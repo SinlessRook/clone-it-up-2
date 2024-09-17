@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <link href="../output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- NavBar -->
+  <nav class=" flex justify-between px:2 pt-2 ml-8 md:px-6 md:pt-2 md:ml-20">
+    <div id="Logo" class="flex gap-4 md:gap-6">
+      <img src="..\assets\Logo.svg" alt="logo">
+    </div>
+    <div id="NavBarButtons" class="flex gap-3 text-sm md:gap-16 md:text-xl">
+      <button class="hover:underline hover:font-semibold">Home</button>
+      <button class="hover:underline hover:font-semibold">Features</button>
+      <button class="hover:underline hover:font-semibold">Product</button>
+      <button class="hover:underline hover:font-semibold">Testimony</button>
+      <button class="hover:underline hover:font-semibold">FAQ</button>
+    </div>
+    <div id="NavBar-Sign-in-button mr-20" class="flex gap-1 md:gap-2">
+      <button class="px-2 text-sm md:text-2xl md:px-4 border-2 rounded-lg border-primary text-primary "><a href="login.html">Log in</a></button>
+      <button class="px-2 text-sm md:text-2xl md:px-4 rounded-lg bg-primary text-neutral-White">Sign up</button>
+    </div>
+  </nav>
+
+  <!-- Sign-Up Form -->
+  <div class="flex justify-center items-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
+      <h2 class="text-2xl font-semibold text-center mb-6">Create Your Account</h2>
+      <form>
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-semibold mb-2">Full Name</label>
+          <input type="text" id="name" class="w-full p-3 border rounded-lg" placeholder="Enter your full name">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+          <input type="email" id="email" class="w-full p-3 border rounded-lg" placeholder="Enter your email">
+        </div>
+        <div class="mb-4">
+          <label for="password" class="block text-gray-700 font-semibold mb-2">Password</label>
+          <input type="password" id="password" class="w-full p-3 border rounded-lg" placeholder="Enter your password">
+        </div>
+        <div class="mb-4">
+          <label for="confirmPassword" class="block text-gray-700 font-semibold mb-2">Confirm Password</label>
+          <input type="password" id="confirmPassword" class="w-full p-3 border rounded-lg" placeholder="Confirm your password">
+        </div>
+        <button type="submit" class="w-full bg-primary text-white py-3 rounded-lg font-semibold hover:bg-blue-600">Sign Up</button>
+      </form>
+      <p class="text-center text-gray-600 mt-6">Already have an account? <a href="login.html" class="text-blue-500 hover:underline">Log In</a></p>
+    </div>
+  </div>
+</body>
+
+</html>
