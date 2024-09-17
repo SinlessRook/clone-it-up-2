@@ -165,30 +165,33 @@
     <br>
 
     <!-- Customer Section -->
-    <div id="Design Footer" class="flex flex-row items-center pr-20 bg-neutral-Silver">
-      <img src="./assets/Image.svg" alt="Image" class="w-[326px] h-[426px] object-contained ml-10 ">
-      <div id="DesignFooterContent" class="ml-10">
-        <p class="text-neutral-Grey px-10">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem
-          dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam
-          in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec
-          molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse
-          eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat
-          ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id
-          sem dignissim finibus ac sit amet magna.</p>
-        <br>
-        <h1 class="text-4xl text-primary px-10">Tim Smith</h1>
-        <br>
-        <p class="text-neutral-Grey px-10">British Dragon Boat Racing Association</p>
-        <br>
-        <div class="flex flex-row px-10 gap-16">
-          <img src="./assets/Frame 10.svg" alt="Frame 10">
-          <button class="bg-primary text-neutral-White p-2 rounded hover:bg-blue-600 transition duration-300 flex">Meet
-            All Customers
-            <img src="./assets/Right.svg" alt="" class="pt-1">
-          </button>
+    <div class="bg-neutral-Silver">
+      <div id="Design Footer" class="flex flex-row items-center pr-20">
+        <img src="./assets/Image.svg" alt="Image" class="w-[326px] h-[426px] object-contained ml-10 ">
+        <div id="DesignFooterContent" class="ml-10">
+          <p class="text-neutral-Grey px-10">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem
+            dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam
+            in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec
+            molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse
+            eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat
+            ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id
+            sem dignissim finibus ac sit amet magna.</p>
+          <br>
+          <h1 class="text-4xl text-primary px-10">Tim Smith</h1>
+          <br>
+          <p class="text-neutral-Grey px-10">British Dragon Boat Racing Association</p>
+          <br>
+          <div class="flex flex-row px-10 gap-16">
+            <img src="./assets/Frame 10.svg" alt="Frame 10">
+            <button class="bg-primary text-neutral-White p-2 rounded hover:bg-blue-600 transition duration-300 flex">Meet
+              All Customers
+              <img src="./assets/Right.svg" alt="" class="pt-1">
+            </button>
+          </div>
         </div>
       </div>
     </div>
+    
     <br>
     <!-- Testimonial Section -->
     <div id="Testimonial Section" class="flex flex-col items-center ">
@@ -204,7 +207,9 @@
       <div class="flex flex-row items-center justify-between space-x-4 px-10">
         <!-- First Card -->
         <div class="flex flex-col items-center">
-          <img src="./assets/image 18.png" alt="" class="w-84 mt-4">
+          <div id="imageHolder" class="w-84 h-auto">
+            <img src="./assets/image 18.png" alt="" class="mt-4">
+          </div> 
           <div id="CardContent"
             class="w-2/3 text-center bg-neutral-Silver rounded-lg px-10 py-2">
             <h1 class="text-2xl text-neutral-Grey">Creating Streamlined Safeguarding Processes with OneRen</h1>
@@ -215,7 +220,9 @@
       
         <!-- Second Card -->
         <div class="flex flex-col items-center">
-          <img src="./assets/image 19.png" alt="" class="w-84 mt-4">
+          <div id="imageHolder" class="w-84 h-auto">
+            <img src="./assets/image 19.png" alt="" class="mt-4">
+          </div> 
           <div id="CardContent"
             class="w-2/3 text-center bg-neutral-Silver rounded-lg px-10 py-2">
             <h1 class="text-2xl text-neutral-Grey">What are your safeguarding responsibilities and how can you manage them?</h1>
@@ -226,7 +233,9 @@
 
          <!-- Third Card -->
          <div class="flex flex-col items-center">
-          <img src="./assets/image 20.png" alt="" class="w-84 mt-4">
+          <div id="imageHolder" class="w-84 h-auto">
+            <img src="./assets/image 20.png" alt="" class="mt-4">
+          </div> 
           <div id="CardContent"
             class="w-2/3 text-center bg-neutral-Silver rounded-lg px-10 py-2">
             <h1 class="text-2xl text-neutral-Grey">Revamping the Membership Model with Triathlon Australia</h1>
@@ -251,10 +260,40 @@
     </div>
 
 <!-- Footer -->
-<div id="footer" class="bg-neutral-Black w-full">
-  <br>
-  <br>
-  <div id="Container">
+<div id="footer" class="bg-neutral-Black w-full p-10 text-neutral-Silver">
+  <div id="container" class="flex flex-row gap-10">
+    <div class="w-1/3 px-10 flex flex-col">
+      <img src="./assets/Logo(1).svg" alt="">
+      <br>
+      <p>Copyright © 2024 Riglabs Collective</p>
+      <p>All rights reserved.</p>
+    </div>
+    <div class="w-1/3 px-10 flex flex-col">
+      <h1 class="text-2xl">Company</h1>
+      <br>
+      <p>About Us</p>
+      <p>Blog</p>
+      <p>Contact us</p>
+      <p>Pricing</p>
+      <p>Testimonials</p>
+    </div>
+    <div class="w-1/3 px-10 flex flex-col">
+      <h1 class="text-2xl">Support</h1>
+      <br>
+      <p>Help center</p>
+      <p>Terms of service</p>
+      <p>Legal</p>
+      <p>Privacy policy</p>
+      <p>Status</p>
+    </div>
+    <div class="w-1/3 px-10 flex flex-col">
+      <h1 class="text-2xl">Stay up to date</h1>
+      <br>
+      <input 
+  class="bg-neutral-D_Grey p-1 rounded-lg w-3/4 text-neutral-Greyblue placeholder-neutral-Greyblue"
+  type="text" name="username" placeholder="Your email Address">
+
+    </div>
   </div>
 </div>
 </body>
