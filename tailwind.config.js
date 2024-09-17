@@ -3,6 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      width:{'84':'25rem'},
       colors: {
         primary: '#28CB8B',
         secondary: '#263238',
