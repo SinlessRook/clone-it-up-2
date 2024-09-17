@@ -83,18 +83,6 @@ If you have added custom JavaScript to the project, ensure that it is properly l
 <script src="./assets/js/script.js"></script>
 ```
 
-### Example JavaScript Features
-
-- **Dynamic Content Loading**: JavaScript can be used to load content dynamically without refreshing the page.
-- **Event Listeners**: You can use event listeners for user interactions, such as buttons, scroll events, or form submissions.
-  
-Example:
-```js
-// Example of a button click event listener
-document.getElementById('myButton').addEventListener('click', function() {
-  alert('Button clicked!');
-});
-```
 
 ## Contributing
 
