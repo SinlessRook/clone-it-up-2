@@ -1,10 +1,7 @@
 {
-  "scripts": {
-    "build": "postcss src/styles.css -o dist/styles.css"
-  },
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.11"
+    "tailwindcss": "^3.4.12"
   }
 }
