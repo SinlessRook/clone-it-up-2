@@ -1,4 +1,3 @@
-Here's the updated `README.md` file that includes JavaScript as part of the project:
 
 ---
 
